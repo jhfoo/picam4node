@@ -1,6 +1,6 @@
 {
   "name": "picam4node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -9,6 +9,10 @@
   "scripts": {
     "dev": "supervisor -n exit test/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhfoo/picam4node.git"
   },
   "keywords": [],
   "author": "",

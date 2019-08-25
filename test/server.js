@@ -1,5 +1,5 @@
 const fs = require('fs'),
-    picam4node = require('../src/picam4node.js'),
+    picam4node = require('../index.js'),
     cam = new picam4node.StillCamera()
 
 
