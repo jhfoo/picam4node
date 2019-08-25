@@ -13,4 +13,4 @@ cam.takeImage({
 }).catch((err) => {
     console.log('ERROR: ', err)
 })
-console.log('Hello')
+console.log('Photo written to test/photo.jpg')
