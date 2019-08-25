@@ -61,7 +61,7 @@ StillCamera.prototype.parseArgs = function (args) {
         }
     })
 
-    console.log(FinalArgs)
+    // console.log(FinalArgs)
     return Object.keys(FinalArgs).reduce((acc, key) => {
         acc.push(key)
         if (FinalArgs[key] != null)
